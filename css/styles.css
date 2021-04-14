@@ -29,6 +29,11 @@ p{
   padding:2rem 1rem;
 }
 
+.nav-choice, .navigation-button{
+  display:none;
+  visibility:hidden;
+}
+
 
 /*first page*/
 .first-page{
@@ -182,6 +187,10 @@ p{
   visibility:hidden;
 }
 
+.nav-choice, .navigation-button{
+  display:block;
+  visibility:visible;
+}
 
 .navigation-request-button{
   width: 11rem;
