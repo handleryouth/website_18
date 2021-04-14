@@ -192,7 +192,7 @@ p{
 
 
 @media(min-width:1000px){
-  .first-page-header, .fourth-page-header{
+  .first-page-header, .fourth-page-header, .second-page-header{
     font-size: 3rem;
   }
 
@@ -200,7 +200,7 @@ p{
     width:15%;
   }
 
-  .second-page-description1,.second-page-description{
+  .second-page-description1,.second-page-description, .first-page-description{
     padding:0 5rem;
     font-size:1.5rem;
   }
