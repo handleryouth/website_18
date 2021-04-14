@@ -282,6 +282,15 @@ p{
 }
 
 
+/*pop choice gone*/
+.pop-choice{
+  display:none;
+  visibility: hidden;
+}
+
+.first-page, .second-page, .fourth-page, .footer-page{
+  opacity: 1;
+}
 
 
 /*navigation-bar*/

@@ -7,28 +7,28 @@ const firstpage = document.querySelector(".first-page")
 const secondpage = document.querySelector(".second-page")
 const fourthpage = document.querySelector(".fourth-page")
 const footerpage = document.querySelector(".footer-page")
-
+const mq = window.matchMedia( "(min-width: 1440px)" );
 
 
 hamburger.addEventListener("click", function(){
-  popchoice.classList.remove("notshowed")
-  hamburger.classList.add("notshowed")
-  close.classList.remove("notshowed")
+popchoice.classList.remove("notshowed")
+hamburger.classList.add("notshowed")
+close.classList.remove("notshowed")
 
 
-  firstpage.classList.add("opacity-reduced")
-  secondpage.classList.add("opacity-reduced")
-  fourthpage.classList.add("opacity-reduced")
-  footerpage.classList.add("opacity-reduced")
+firstpage.classList.add("opacity-reduced")
+secondpage.classList.add("opacity-reduced")
+fourthpage.classList.add("opacity-reduced")
+footerpage.classList.add("opacity-reduced")
 })
 
 close.addEventListener("click", function(){
-  popchoice.classList.add("notshowed")
-  hamburger.classList.remove("notshowed")
-  close.classList.add("notshowed")
+popchoice.classList.add("notshowed")
+hamburger.classList.remove("notshowed")
+close.classList.add("notshowed")
 
-  firstpage.classList.remove("opacity-reduced")
-  secondpage.classList.remove("opacity-reduced")
-  fourthpage.classList.remove("opacity-reduced")
-  footerpage.classList.remove("opacity-reduced")
+firstpage.classList.remove("opacity-reduced")
+secondpage.classList.remove("opacity-reduced")
+fourthpage.classList.remove("opacity-reduced")
+footerpage.classList.remove("opacity-reduced")
 })
