@@ -1,7 +1,6 @@
 body{
   font-family: 'Public Sans', sans-serif;
   margin: 0;
-  overflow-x: hidden;
 }
 
 p{
@@ -23,7 +22,7 @@ p{
 .background-mobile{
   position:absolute;
   z-index: -1;
-  top:5%;
+  top:0;
   width:100%;
 }
 
@@ -54,6 +53,8 @@ p{
   display:flex;
   flex-direction:column-reverse;
   overflow-y: hidden;
+  position:relative;
+  overflow-x: hidden;
 }
 
 .first-page-left{
