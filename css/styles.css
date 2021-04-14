@@ -163,6 +163,55 @@ p{
   color: hsl(233, 8%, 62%);
 }
 
+@media(min-width: 700px){
+  .first-page-description, .second-page-description1, .second-page-description{
+    font-size:1.2rem;
+  }
+
+  .first-page-description{
+    padding: 0 3rem;
+  }
+
+  .small-description{
+    font-size:1rem;
+  }
+
+  .large-description{
+    font-size:1.5rem
+  }
+
+
+  .second-page-description{
+    padding:0 4rem;
+  }
+
+  .features-header{
+    font-size: 1.6rem;
+  }
+}
+
+
+@media(min-width:1000px){
+  .first-page-header, .fourth-page-header{
+    font-size: 3rem;
+  }
+
+  .features-image{
+    width:15%;
+  }
+
+  .second-page-description1,.second-page-description{
+    padding:0 5rem;
+    font-size:1.5rem;
+  }
+
+  .features-header{
+    font-size:2rem;
+  }
+
+}
+
+
 
 /*desktop version*/
 @media(min-width:1440px){
@@ -221,7 +270,9 @@ p{
 }
 
 .first-page-description{
-  width: 60%;
+  width: 70%;
+  padding: 0;
+  font-size:1.3rem;
 }
 
 .first-page-right{
@@ -242,6 +293,7 @@ p{
   padding: 0;
   text-align: left;
   width: 50%;
+
 }
 
 .features{
@@ -249,9 +301,29 @@ p{
   margin: 7rem 0;
 }
 
+.features-image{
+  width:35%;
+}
+
+
+.features-header{
+  font-size:1.8rem;
+}
+
+
+.different-features-image{
+  width:32%;
+}
+
+.second-page-header{
+  font-size:3.5rem;
+}
+
+
 .second-page-description{
   text-align: left;
   padding: 0;
+  font-size: 1.2rem;
 }
 
 .features1, .features2, .features3, .features4{
