@@ -1,0 +1,146 @@
+/*for font*/
+
+body{
+  font-family: 'Public Sans', sans-serif;
+  margin: 0
+}
+
+/*button properties*/
+.request-button{
+  width: 11rem;
+  height: 3rem;
+  background-image:linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border: 0;
+  border-radius:50px;
+  color: white;
+}
+
+/*for main body*/
+
+
+/*navigation bar*/
+.nav-class{
+  display:flex;
+  justify-content:space-between;
+  padding:2rem 1rem;
+}
+
+
+/*first page*/
+.first-page{
+  display:flex;
+  flex-direction:column-reverse;
+}
+
+.first-page-left{
+  text-align: center;
+}
+
+.phone-image{
+  width: 100%;
+}
+
+.first-page-description{
+  color: hsl(233, 8%, 62%);
+}
+
+
+/*second page*/
+.second-page{
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.second-page-description{
+  padding:0 1rem;
+  color: hsl(233, 8%, 62%);
+}
+
+
+
+
+/*fourth page*/
+.article-image1, .article-image2, .article-image3, .article-image4, .article-image5{
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+
+.article-description1, .article-description2, .article-description3, .article-description4{
+  margin: 2rem 1.5rem;
+}
+
+.fourth-page{
+  margin: 5rem 0;
+}
+
+.fourth-page-header{
+  text-align: center;
+}
+
+.description-block{
+  display:block;
+}
+
+.small-description{
+  font-size: 0.8rem;
+  color: hsl(233, 8%, 62%);
+  margin-bottom: 1.3rem;
+}
+
+.medium-description{
+  color: hsl(233, 8%, 62%);
+}
+
+.large-description{
+  font-size:1.3rem;
+}
+
+
+/*footer page*/
+.footer-page{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: hsl(233, 26%, 24%);
+  padding: 2rem 0;
+}
+
+.footer-page-image{
+  color: white;
+}
+
+.social-icon{
+  margin: 1rem 0;
+}
+
+
+.footer-link{
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.footer-link-list{
+  color: white;
+  text-decoration: none;
+  margin: 0.3rem 0;
+}
+
+.fab{
+  margin: 0.3rem;
+  color: white;
+}
+
+
+.copyright-button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.copyright{
+  color: hsl(233, 8%, 62%);
+}
